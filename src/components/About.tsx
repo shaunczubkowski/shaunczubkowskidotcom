@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { FaArrowDown } from "react-icons/fa6";
 
 const verbs = ['write high-quality code', 'understand user problems', 'improve user experiences', 'develop solutions with modern technology']
