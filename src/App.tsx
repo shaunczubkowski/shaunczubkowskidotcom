@@ -1,11 +1,18 @@
 import Skills from "./Skills";
-import About from "./components/About";
+import Home from "./components/About";
+import Header from "./components/Header";
+import { Background } from "./components/background/Background";
+import VerticalLayout from "./components/layout/VerticalLayout";
 
 function App() {
   return (
     <>
-      <About />
-      <Skills />
+      <Background />
+      <Header />
+      <VerticalLayout>
+        <Home />
+        <Skills />
+      </VerticalLayout>
     </>
   )
 }
