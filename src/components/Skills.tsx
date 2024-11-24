@@ -1,9 +1,8 @@
-import { TbBrandMixpanel } from "react-icons/tb";
 import Skill from "./Skill";
 import { BiLogoAngular, BiLogoAws, BiLogoCss3, BiLogoFigma, BiLogoGraphql, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoReact, BiLogoSass, BiLogoTailwindCss, BiLogoTypescript, BiTestTube } from "react-icons/bi";
 import { SiDatadog, SiJenkins, SiMixpanel, SiStorybook } from "react-icons/si";
 import { GoCopilot } from "react-icons/go";
-import { FaGear, FaGears } from "react-icons/fa6";
+import { FaGears } from "react-icons/fa6";
 import { GrTest } from "react-icons/gr";
 import { GiTeamIdea } from "react-icons/gi";
 import AnimatedSection from "./layout/AnimatedSection";
