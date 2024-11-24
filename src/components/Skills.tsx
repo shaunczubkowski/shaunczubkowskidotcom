@@ -1,5 +1,5 @@
 import Skill from "./Skill";
-import { BiLogoAngular, BiLogoAws, BiLogoCss3, BiLogoFigma, BiLogoGraphql, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoReact, BiLogoSass, BiLogoTailwindCss, BiLogoTypescript, BiTestTube } from "react-icons/bi";
+import { BiLogoAngular, BiLogoAws, BiLogoCss3, BiLogoFigma, BiLogoGraphql, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoReact, BiLogoSass, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { SiDatadog, SiJenkins, SiMixpanel, SiStorybook } from "react-icons/si";
 import { GoCopilot } from "react-icons/go";
 import { FaGears } from "react-icons/fa6";
