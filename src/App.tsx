@@ -1,16 +1,18 @@
-import Skills from "./Skills";
-import Home from "./components/About";
+import Skills from "./components/Skills";
 import Header from "./components/Header";
 import { Background } from "./components/background/Background";
 import VerticalLayout from "./components/layout/VerticalLayout";
+import About from "./components/About";
+import HeaderBanner from "./components/HeaderBanner";
 
 function App() {
   return (
     <>
       <Background />
+      <HeaderBanner />
       <Header />
       <VerticalLayout>
-        <Home />
+        <About />
         <Skills />
       </VerticalLayout>
     </>
