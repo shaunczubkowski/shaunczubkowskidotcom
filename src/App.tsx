@@ -7,15 +7,15 @@ import HeaderBanner from "./components/HeaderBanner";
 
 function App() {
   return (
-    <>
-      <Background />
+    <div className="bg-background">
+      {window.innerWidth > 1200 && <Background />}
       <HeaderBanner />
       <Header />
       <VerticalLayout>
         <About />
         <Skills />
       </VerticalLayout>
-    </>
+    </div>
   )
 }
 
