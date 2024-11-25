@@ -7,7 +7,7 @@ import { GrTest } from "react-icons/gr";
 import { GiTeamIdea } from "react-icons/gi";
 import AnimatedSection from "./layout/AnimatedSection";
 
-const SIZE = 128;
+const SIZE = 64;
 
 
 const skills = [
@@ -95,7 +95,7 @@ const skills = [
 
 export default function Skills() {
     return (
-        <section className="h-auto xl:pt-40 pt-96  pb-5 text-text" id="skills">
+        <section className="h-auto xl:pt-40 pt-36 pb-5 text-text" id="skills">
             <AnimatedSection>
                 <h3 className="text-4xl my-4 font-bold text-accent text-center">Skills</h3>
                 <div className="grid md:grid-cols-3 lg:grid-cols-5 place-items-center">

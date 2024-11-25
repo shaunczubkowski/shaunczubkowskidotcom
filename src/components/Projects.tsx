@@ -3,7 +3,7 @@ import AnimatedSection from "./layout/AnimatedSection";
 
 const Projects = () => {
     return (
-        <section className="h-auto pt-40 pb-5 text-text" id="projects">
+        <section className="h-auto pt-36 pb-5 text-text" id="projects">
             <AnimatedSection>
                 <h3 className="text-4xl my-4 font-bold text-accent text-center">Projects</h3>
 

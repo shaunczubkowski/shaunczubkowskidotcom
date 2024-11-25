@@ -6,7 +6,7 @@ const HeaderBanner = () => {
     const quality = useQualities();
 
     return (
-        <div className="flex flex-col justify-between items-center relative h-screen overflow-x-hidden w-full text-center">
+        <div id="home" className="flex flex-col justify-between items-center relative h-screen overflow-x-hidden w-full text-center">
             <motion.div className="my-auto flex flex-col items-center" initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }}>
                 <img className="h-64 w-64" src="/bitmoji-shaun.PNG" alt="This is Bitmoji Shaun, Hello!" />
                 <h2 className="text-3xl mt-4 text-text">

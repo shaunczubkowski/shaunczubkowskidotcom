@@ -9,6 +9,16 @@ export const Background = () => {
     useEffect(() => {
         canvas = canvasRef.current;
         context = canvas?.getContext("2d");
+
+        window.addEventListener('resize', resizeReset);
+        window.addEventListener('mousemove', mouseMove);
+        window.addEventListener('mouseout', mouseOut);
+
+        return (() => {
+            window.removeEventListener('resize', resizeReset);
+            window.removeEventListener('mousemove', mouseMove);
+            window.removeEventListener('mouseout', mouseOut);
+        });
     }, [])
 
     let w: number, h: number, particles: any[] = [];
@@ -78,6 +88,8 @@ export const Background = () => {
         mouse.y = e.y;
     }
 
+
+    // TODO: Figure out how to reset grid when leaving page
     const mouseOut = () => {
         mouse.x = undefined;
         mouse.y = undefined;
@@ -89,11 +101,6 @@ export const Background = () => {
     }
 
     window.onload = init;
-
-    window.addEventListener('resize', resizeReset);
-    window.addEventListener('mousemove', mouseMove);
-    window.addEventListener('mouseout', mouseOut);
-
     return (
         <canvas ref={canvasRef} className="fixed left-0 top-0 w-full h-full bg-background" />
     )
