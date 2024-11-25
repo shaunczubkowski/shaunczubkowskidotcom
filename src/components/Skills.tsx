@@ -95,13 +95,13 @@ const skills = [
 
 export default function Skills() {
     return (
-        <section className="h-auto pt-40 pb-5 text-text" id="skills">
+        <section className="h-auto xl:pt-40 pt-96  pb-5 text-text" id="skills">
             <AnimatedSection>
                 <h3 className="text-4xl my-4 font-bold text-accent text-center">Skills</h3>
                 <div className="grid md:grid-cols-3 lg:grid-cols-5 place-items-center">
                     {
                         skills.map(skill => (
-                            <Skill {...skill} />
+                            <Skill key={skill.text} {...skill} />
                         ))
                     }
                 </div>

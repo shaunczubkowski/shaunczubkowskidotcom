@@ -4,6 +4,7 @@ import { Background } from "./components/background/Background";
 import VerticalLayout from "./components/layout/VerticalLayout";
 import About from "./components/About";
 import HeaderBanner from "./components/HeaderBanner";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <VerticalLayout>
         <About />
         <Skills />
+        <Projects />
       </VerticalLayout>
     </div>
   )

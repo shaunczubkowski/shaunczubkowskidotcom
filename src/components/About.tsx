@@ -2,7 +2,7 @@ import AnimatedSection from "./layout/AnimatedSection";
 
 const About = () => {
     return (
-        <section className="xl:pt-40 pt-36 w-full" id="about">
+        <section className="xl:pt-40 pt-96 w-full" id="about">
             <AnimatedSection>
                 <h3 className="text-4xl my-4 font-bold text-accent text-center">About</h3>
                 <div className="flex flex-col  xl:flex-row text-text">

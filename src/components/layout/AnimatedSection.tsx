@@ -21,7 +21,7 @@ interface AnimatedSectionProps {
 const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children }) => {
 
     return (
-        <motion.div initial="offscreen" whileInView="onscreen" viewport={{ once: true, amount: .5 }} >
+        <motion.div initial="offscreen" whileInView="onscreen" viewport={{ once: true }} >
             <motion.div variants={window.innerWidth < 1200 ? {} : scrollVariant}>
                 {children}
             </motion.div>
